@@ -1,0 +1,49 @@
+/* FindUser.css */
+
+/* Styles for the custom form */
+.custom-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Styles for the custom input container */
+  .custom-input {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the custom input fields */
+  .custom-input-field {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Styles for the custom button container */
+  .custom-button-container {
+    text-align: center;
+  }
+  
+  /* Styles for the error message */
+  #error-message {
+    margin-top: 10px;
+    font-weight: 700;
+  }
+  
+  /* Styles for the card buttons */
+  .custom-card-btns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the actual card */
+  .custom-actual-card {
+    display: flex;
+    justify-content: center;
+  }
+  

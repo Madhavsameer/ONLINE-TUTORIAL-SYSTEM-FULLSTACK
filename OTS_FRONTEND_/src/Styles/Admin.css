@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+.Admin_container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(43, 212, 52);
+    background-image: url(https://wallpapercave.com/wp/wp2508376.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.Admin_container p{
+    color: #843434;
+    font-size: 1.6rem;
+    line-height: 1rem;
+}
+
+.Admin_container .main_left{
+    margin-left: 2vw;
+    flex-basis: 50%;
+    color: white;
+    font-size: 1.6rem;
+}
+.Admin_container .main_left img{
+    width: 45vw;
+    height: 65vh;
+    border-top-left-radius: 3%;
+}
+.Admin_container .main_right{
+    display: inline-block;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 1%;
+}
+.Admin_container .main_right .profile-box {
+    margin-left: 500px;
+    width: 40vw;
+    height: 70vh;
+    /* height: 500px; */
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 5%;
+    border-radius: 10px;
+    background: #fffefe;
+    text-align: center;
+}
+#myadmin{
+    background-color: #b7d6d6;
+    color: rgb(157, 209, 172);
+    padding: 05px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+    
+    
+    overflow: hidden;
+    animation: animate 3s linear;
+    -webkit-text-stroke: 0.1vw rgba(50, 50, 50, 0.806);
+}
+
+@keyframes animate {
+    0%,10%{
+        width: 0;
+        transform: rotate(180);
+        color: #2e0a72;
+    }
+    70%,80%{
+        width: 80.5%;
+        transform: rotate(360);
+        color: aqua;
+    }
+}
+
+.Admin_container .main_right .profile-box .adminimg {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+.Admin_container .main_right .profile-box .adminimg:hover{
+    transform: scale(1.1);
+}
+.Admin_container button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 10px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: grab;
+}
+
+.Admin_container button:hover{
+	background: #2e0a72;
+}

@@ -1,0 +1,37 @@
+.tutor img{
+   height: 60px;
+   width: 60px;
+   margin: 25px;
+}
+.myclass{
+    width: 60px;
+    height: 180px;
+    margin-left: 20px;
+}
+
+.tutor{
+    display: flex;
+}
+
+
+
+.bio {
+    margin-left: 25px;
+}
+
+h2{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.my_profile{
+    width: 100px;
+    position: relative;
+    left: 50%;
+}
+
+.tutor-info{
+    position: relative;
+    top: 40px;
+    left: -100px;
+}
